@@ -35,15 +35,15 @@ prediction.
 -   Scikit-learn
     
   
-## 📈 App Features
+##  App Features
 
-- 🔢 User-input revenue prediction
-- 📊 Auto-calculated engagement metrics
-- 📉 Clean and interactive dashboard with model insights
+- User-input revenue prediction
+- Auto-calculated engagement metrics
+-  Clean and interactive dashboard with model insights
 
 ---
 
-## ✅ Results
+## Results
 
 - Trained and validated multiple regression models
 - Fully functional Streamlit application
