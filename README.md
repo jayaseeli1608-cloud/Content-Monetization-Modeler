@@ -1,5 +1,4 @@
-# YouTube Ad Revenue Predictor (Streamlit + Machine Learning)
-
+# YouTube Ad Revenue Predictor 
 ## Overview
 
 This project predicts **YouTube advertisement revenue** using machine
@@ -35,55 +34,7 @@ prediction.
 -   NumPy
 -   Scikit-learn
     
-  rchitecture Diagram
-                    ┌───────────────────────────┐
-                    │        User Input         │
-                    │  (Streamlit Web App UI)   │
-                    │                           │
-                    │ Views                     │
-                    │ Likes                     │
-                    │ Comments                  │
-                    │ Watch Time                │
-                    │ Video Length              │
-                    │ Subscribers               │
-                    │ Category / Device /Country│
-                    │ Upload Date Details       │
-                    └───────────────┬───────────┘
-                                    │
-                                    ▼
-                        ┌────────────────────┐
-                        │   Input Processing │
-                        │  prepare_input()   │
-                        │                    │
-                        │ • Create DataFrame │
-                        │ • Feature Encoding │
-                        │ • One-Hot Encoding │
-                        │ • Align columns    │
-                        └─────────┬──────────┘
-                                  │
-                                  ▼
-                        ┌────────────────────┐
-                        │  Trained ML Model  │
-                        │  Regression.pkl    │
-                        │                    │
-                        │ Linear Regression /│
-                        │ Huber Regressor    │
-                        └─────────┬──────────┘
-                                  │
-                                  ▼
-                        ┌────────────────────┐
-                        │ Prediction Engine  │
-                        │ model.predict()    │
-                        └─────────┬──────────┘
-                                  │
-                                  ▼
-                        ┌────────────────────┐
-                        │  Streamlit Output  │
-                        │                    │
-                        │ Estimated Revenue  │
-                        │      $xxxx.xx      │
-                        └────────────────────┘
--
+  
 ## 📈 App Features
 
 - 🔢 User-input revenue prediction
