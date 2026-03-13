@@ -1,10 +1,4 @@
 # YouTube Ad Revenue Predictor 
-## Overview
-
-This project predicts **YouTube advertisement revenue** using machine
-learning. A trained regression model is connected to a **Streamlit web
-application** where users can input video metrics and obtain a revenue
-prediction.
 
 ## Features
 
@@ -42,6 +36,11 @@ prediction.
 -  Clean and interactive dashboard with model insights
 
 ---
+
+##You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8505
+  Network URL: http://10.100.33.159:8505
 
 ## Results
 
