@@ -35,12 +35,6 @@
 - Auto-calculated engagement metrics
 -  Clean and interactive dashboard with model insights
 
----
-
-##You can now view your Streamlit app in your browser.
-
-  Local URL: http://localhost:8505
-  Network URL: http://10.100.33.159:8505
 
 ## Results
 
